@@ -1,4 +1,4 @@
-# codcheck-worker
+# codcheck-lint-worker
 
 <a href="https://opensource.org/licenses/mit-license.php"><img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" alt="MIT Licence"></a>
 
