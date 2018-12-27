@@ -1,0 +1,9 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "some-image",
+        "Update": "true"
+    },
+    "Ports": [],
+    "Volumes": []
+}

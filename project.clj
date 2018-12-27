@@ -2,7 +2,7 @@
   :description "Codcheck worker for linting Clojure projects"
 
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [codcheck "0.0.3"]
+                 [codcheck "0.0.8"]
                  [jonase/eastwood "0.3.3"]
                  [org.clojure/core.async "0.4.474"]
                  [com.novemberain/langohr "5.0.0"]]

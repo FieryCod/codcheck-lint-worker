@@ -1,0 +1,13 @@
+FROM openjdk:8-alpine3.8
+MAINTAINER Karol Wojcik <kwcharllie379@gmail.com>
+
+RUN apk update && apk upgrade && \
+  apk add --no-cache bash git openssh
+
+ENV HOST 0.0.0.0
+ENV ENVIRONMENT=development
+
+WORKDIR /usr/src/codcheck-lint-worker
+COPY codcheck-lint-worker.jar codcheck-lint-worker.jar
+
+ENTRYPOINT ["java", "-jar","codcheck-lint-worker.jar"]
